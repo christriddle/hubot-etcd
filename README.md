@@ -24,5 +24,9 @@ hobot>> Alias added
 user1>> hubot etcd show aliases
 hubot>> { "local": { "host:" "localhost", "port": "4001"}}
 user1>> hubot etcd local get key1/subkey1
-hubot>> {"key":"/key1","value":"monkey2","modifiedIndex":22,"createdIndex":22}
+hubot>> {"key":"/key1/subkey1","value":"awubawub","modifiedIndex":22,"createdIndex":22}
 ```
+
+## Roadmap
+
+0.2.0 - Cluster health
