@@ -2,6 +2,9 @@
 
 A Hubot script for querying an Etcd cluster
 
+[![NPM](https://nodei.co/npm/hubot-etcd.png)](https://nodei.co/npm/hubot-etcd)
+
+
 ## Installation
 
 In hubot project repo, run:
