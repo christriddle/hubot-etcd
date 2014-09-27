@@ -1,6 +1,6 @@
 # hubot-etcd
 
-A Hubot script for querying an Etcd cluster
+A Hubot script for querying an [etcd](https://github.com/coreos/etcd) cluster
 
 [![NPM](https://nodei.co/npm/hubot-etcd.png)](https://nodei.co/npm/hubot-etcd)
 
