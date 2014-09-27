@@ -68,7 +68,7 @@ module.exports = (robot) ->
         msg.send "Error getting key [" + key + "]: " + err
         return
 
-      msg.send "/code #{body}"
+      msg.send "/code #{body.node}"
 
   robot.respond /etcd add alias (\S+) (\S+) (\S+)$/i, (msg) ->
     alias = msg.match[1]
